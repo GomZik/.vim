@@ -659,7 +659,7 @@
 
         NeoBundleLazy 'tsukkee/unite-help', {'autoload':{'unite_sources':'help'}}
 
-        NeoBundleLazy 'unite-radio.vim', {'autoload':{'unite_sources':'radio'}}
+        " NeoBundleLazy 'unite-radio.vim', {'autoload':{'unite_sources':'radio'}}
 
         source $HOME/.vim/unite.vim
 
@@ -685,7 +685,6 @@ if filereadable($HOME . "/.vim_local")
     source $HOME/.vim_local
 endif
 
-
 " Install bundles
 " ================
 NeoBundleCheck
@@ -699,3 +698,6 @@ set exrc
 
 " must be written at the last.  see :help 'secure'.
 set secure
+
+
+
